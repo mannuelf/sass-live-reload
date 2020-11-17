@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "a demo of sass project",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass scss/styles.scss css/styles.css --watch",
+    "server": "live-server",
+    "develop": "concurrently \"npm run watch:sass\" \"npm run server\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "concurrently": "^5.3.0"
+  }
+}
